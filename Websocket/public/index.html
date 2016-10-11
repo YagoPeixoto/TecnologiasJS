@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>WebSocket</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="/socket.io/socket.io.js"></script>
+	<script type="text/javascript" src="main.js"></script>
+</head>
+<body>
+
+	<div id="inicio">
+		<form>  
+		    <input type="text" id="username" placeholder="Nome" >
+		    <input onclick="return logUsuario(username.value)" type="button" value="Enviar!">
+		</form>
+	</div>
+
+	<div id="content">
+		<div id="messages"></div>
+		<br>
+	
+
+		<div class="evmensagem">
+			<form onsubmit="return enviarMensagem(texto.value)">
+				<p>Usuario: <span id="usuario"></span></p>
+			    <input type="text" id="texto" placeholder="Mensagem">
+			    <input type="submit" value="Enviar!">
+			</form>
+		</div>
+	</div>
+</body>
+</html>
+
+
+	
+
+
+	
+
+
+		
+	
