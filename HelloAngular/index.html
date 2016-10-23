@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html ng-app="firstApp">
+<html ng-app="firstApp"><!-- faz ligação com a variavel firstApp -->
 <head>
     <meta charset="utf-8">
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.19/angular.min.js"></script>
-    <script src="firstApp.js"></script>
+    <script src="firstApp.js"></script><!--adicionamos o script AngularJs que vai definir o módulo
+    angular.module('firstApp', []); na parte js-->
 </head>
-<body ng-controller="firstCtrl">
+<body ng-controller="firstCtrl"><!-- faz ligação com a parte de controler -->
 <h1>{{title}}</h1>
 </body>
 </html>

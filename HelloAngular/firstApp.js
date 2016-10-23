@@ -3,6 +3,6 @@
  */
 var firstApp = angular.module('firstApp', []);
 
-firstApp.controller('firstCtrl', function ($scope) {
+firstApp.controller('firstCtrl', function ($scope) { //controler para instrução
     $scope.title = 'Hello World!';
 });
