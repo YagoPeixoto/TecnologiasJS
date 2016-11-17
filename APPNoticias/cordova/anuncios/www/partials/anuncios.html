@@ -1,0 +1,17 @@
+
+<div class="navbar navbar-default, text-center">
+<h1>Noticias IFGoiano </h1>Mobile
+
+</div>
+<h1><p style="text-align: center">App de noticias do IF Goiano</p></h1>
+
+<div class=" well bs-component" ng-repeat="anuncio in anuncios">
+
+    <b><p>{{anuncio.title}}</p></b>
+    <p>{{anuncio.subtitle}}</p>
+    <p>{{anuncio.date}}"</p>
+    <p>{{anuncio.campus}}</p>
+
+</div>
+
+<!-- Aqui vc vai acessar os dados que vc colocou dentro do scopo no angular. e usar o ngrepeat para mostrar cada dado-->
